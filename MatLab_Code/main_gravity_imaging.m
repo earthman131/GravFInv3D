@@ -1,7 +1,15 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% A wavenumber-domain iterative approach for rapid 3-D imaging of gravity anomalies and gradients.
+% Author: Lianghui Guo (guolh@cugb.edu.cn), Yatong Cui
+% Organization: China University of Geosciences (Beijing), School of Geophysics and Information Technology
+% Compiled version: MATLAB R2017b
+% Reference:
+%       Cui Y T, Guo L H. A wavenumber-domain iterative approach for rapid 3-D imaging
+%       of gravity anomalies and gradients. IEEE Access, 2019, 7: 34179-34188.
 % Description of the input parameters: 
 %       infile_ano: observed anomaly, unit: mGal
-%       n: power of vertical derivative, nâˆˆ[1,10]
-%       N: depth scaling factorï¼ŒNâ‰¥1
+%       n: power of vertical derivative, n¡Ê[1,10]
+%       N: depth scaling factor£¬N¡Ý1
 %       zmin, zmax: range of imaging depth direction
 %       dz: spacing of depth direction
 %       iter: number of iterations
@@ -12,12 +20,12 @@
 %       outfile_rms: root mean square file, unit: mGal
 %       outfile_res: residual anomaly file, unit: mGal
 %       outfile_for: calculated anomaly file, unit: mGal
-% Description of primary identifiersï¼š
+% Description of primary identifiers£º
 %       x, y: x, y verctor
 %       nx, ny: number of points in x and y directions
 %       dx, dy: spacing in x and y directions
 %       npts: extension points
-%       G: gravitational constant, unit: m^3/kgÂ·s^2
+%       G: gravitational constant, unit: m^3/kg¡¤s^2
 %       kx, ky, k: wavenumber
 %       obs: observed anomaly
 %       cal: calculated anomaly
