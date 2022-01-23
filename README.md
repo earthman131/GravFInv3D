@@ -6,8 +6,7 @@ Developed by Lianghui Guo and Yatong Cui.
 
 # Principles
 
-GravFInv3D is a Matlab code for gravity wavenumber-domain 3D imaging approaches.3D imaging is an alternative tool for producing the equivalent distribution of density in the subsurface or estimating the depth, dip, or edges of sources. These 3-D imaging approaches are simple, fast, require low computer storage and reduce calculation greatly. The approache produce an equivalent density  distribution and are suitable for preliminary interpretation of evaluation of the unknown subsurface. 
-
+GravFInv3D is a Matlab code for gravity 3D imaging in the wavenumber domain. 3D imaging is an alternative tool for producing the equivalent distribution of density in the subsurface or estimating the depth, dip, or edges of sources. The 3-D imaging approach is simple, fast, require low computer storage and reduce calculation greatly. The approache produce an equivalent density distribution and are suitable for preliminary interpretation of evaluation of the unknown subsurface.
 # Prerequisites
 
 The code being implemented in MATLAB, it requires the MATLAB software, which is licensed under the MathWorks sofware company. MATLAB can be downloaded at the following link https://www.mathworks.com/downloads/, and more information can be found about the license fee on the website.
